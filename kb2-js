@@ -1,0 +1,14 @@
+
+function Hitung() {
+
+    var panjang = parseInt(document.getElementById('panjang').value);
+    var lebar = parseInt(document.getElementById('lebar').value);
+    var hasil = panjang * lebar;
+    document.getElementById('hasil').value = hasil;
+
+}
+function Riset(){
+    document.getElementById('panjang').value = "";
+    document.getElementById('lebar').value = "";
+    document.getElementById('hasil').value = "";
+}
